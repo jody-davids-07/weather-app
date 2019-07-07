@@ -1,10 +1,12 @@
 // var temperature =  Number(prompt("Enter the current temperature:"));
-function myFunction(){
-var temperature=document.getElementById("temp").value;
+//Create a function - this will help with the additional looping and decleration of executed info
+function displayDressCode(){
+var temperature = document.getElementById("temp").value;
 
-    if(temperature<=0 ) {
+//for every true declared inputted condition (as it gradually increases) execute a message to describe what the user should wear
+    if(temperature <= 0) {
         console.log("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots");
-        alert("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots ")
+        alert("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots ");
     }else if (temperature>=0 && temperature<=10 ) {
         console.log("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
         alert("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
