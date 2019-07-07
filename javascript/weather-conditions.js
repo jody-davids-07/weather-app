@@ -7,7 +7,9 @@ var temperature = document.getElementById("temp").value;
     if(temperature <= 0 && temperature >= -20) {
         var x = document.createElement('img'); //creating an image
         x.src = "images/warmgirl.gif"; //calling relative pathway of image
-        
+        document.body.appendChild(x); //append the image to the body
+
+
         // console.log("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots");
         // alert("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots ");
     }else if (temperature >= 0 && temperature <= 10) {
