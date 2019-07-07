@@ -1,7 +1,12 @@
 // var temperature =  Number(prompt("Enter the current temperature:"));
 //Create a function - this will help with the additional looping and decleration of executed info
 function displayDressCode(){
-var temperature = document.getElementById("temp").value;
+     var temperature = document.getElementById("temp").value;
+
+    var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+}
+
 
 //for every true declared inputted condition (as it gradually increases) execute a message to describe what the user should wear
     if(temperature <= 0 && temperature >= -20) {
