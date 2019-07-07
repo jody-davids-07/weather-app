@@ -11,7 +11,7 @@ var temperature = document.getElementById("temp").value;
 
 
         // console.log("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots");
-       alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
+      // alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
     }else if (temperature >= 0 && temperature <= 10) {
         console.log("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
         alert("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");

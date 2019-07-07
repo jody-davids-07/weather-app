@@ -12,14 +12,17 @@
 <body>
     <!-- connect javascript tag -->
     <script src="javascript/weather-conditions.js"></script>
+   
+    <!-- create dresscode display here  -->
      <div class="container">
         Enter The Temperature: <input type="number" id="temp" >
         <input type="submit" value="Submit" onclick="displayDressCode()"><br>
-
-       
-
-
     </div> 
+
+    <!-- creat pop-up messages on-click here -->
+    <div class="popup" onclick="displayDressCode()">Click me!
+        <span class="popuptext" id="myPopup">Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!</span>
+      </div>
 
 
    
