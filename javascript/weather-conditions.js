@@ -14,33 +14,34 @@ function displayDressCode(){
         x.src = "images/warmgirl.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
-
-        // console.log("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots");
-      // alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
     }else if (temperature >= 0 && temperature <= 10) {
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/rain.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body
+
+    }else if (temperature >= 11 && temperature <= 15 ) {
         var x = document.createElement('img'); //creating an image
         x.src = "images/winterboy.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
-
-
-
-      //  console.log("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
-        //alert("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
-    }else if (temperature >= 11 && temperature <= 15 ) {
-        console.log("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
-        alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!") ;  
     }else if (temperature >= 16 && temperature <= 20 ) {
-        console.log("Due to the weather condition stated, it is suggested you wear a windbreaker and a keep your ears and neck warm with a beenie and scarf");
-        alert("Due to the weather condition stated, it is suggested you wear a windbreaker and a keep your ears and neck warm with a beenie and scarf");
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/winterboy.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body
+
     }else if (temperature >= 21 && temperature <= 24 )  {
-            console.log("Due to the weather condition stated, it is suggested you wear something to keep you warm, but not too humid so e.g a scarf or warm jacket");
-            alert("Due to the weather condition stated, it is suggested you wear something to keep you warm, but not too humid so e.g a scarf or warm jacket");
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/winterboy.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body
+
     }else if (temperature >= 25 && temperature <=45) {
-            console.log("Due to the weather condition stated, it is suggested you wear something cool such as a hat, short and flip-flops also don't forget to wear sunscreen!");
-            alert("Due to the weather condition stated, it is suggested you wear something cool such as a hat, short and flip-flops also don't forget to wear sunscreen!");
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/winterboy.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body
+
     } else{
-            console.log("sorry invalid");
-            alert("sorry, that is an invalid temperature"); 
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/winterboy.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body     
     }
 }
