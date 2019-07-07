@@ -5,7 +5,7 @@ function displayDressCode(){
 
     var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
-}
+
 
 
 //for every true declared inputted condition (as it gradually increases) execute a message to describe what the user should wear
@@ -18,8 +18,15 @@ function displayDressCode(){
         // console.log("Due to the weather condition stated, it is suggested you wear extremely warm clothes such as track pants and winter boots");
       // alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
     }else if (temperature >= 0 && temperature <= 10) {
-        console.log("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
-        alert("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
+        var x = document.createElement('img'); //creating an image
+        x.src = "images/winterboy.gif"; //calling relative pathway of image
+        document.body.appendChild(x); //append the image to the body
+
+
+
+
+      //  console.log("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
+        //alert("Due to the weather condition stated, it is suggested you wear something warm such as a coat, beenie, scarf and closed shoes.");
     }else if (temperature >= 11 && temperature <= 15 ) {
         console.log("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!");
         alert("Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!") ;  
