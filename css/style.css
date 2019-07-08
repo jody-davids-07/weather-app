@@ -1,8 +1,12 @@
 /*Add background and font styling*/
 body {
- background-color: cadetblue;
-font-family: 'Raleway', sans-serif;
-background-image: url(images/background.jpg);
+ /* background-color: cadetblue; */
+  font-family: 'Raleway', sans-serif;
+  height: 200px;
+  width: 500px;
+  background-image: url(https://i.ytimg.com/vi/6MGRkUlFZws/maxresdefault.jpg);
+  background-size: cover;
+
 
 }
 

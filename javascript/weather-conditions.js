@@ -15,7 +15,7 @@ function displayDressCode(){
         document.body.appendChild(x); //append the image to the body
 
         
-         <span class="popuptext" id="myPopup">Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!</span>
+        id="myPopup">Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!<
         
 
     }else if (temperature >= 0 && temperature <= 10) {
