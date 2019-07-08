@@ -16,7 +16,7 @@ function displayDressCode(){
 
     }else if (temperature >= 0 && temperature <= 10) {
         var x = document.createElement('img'); //creating an image
-        x.src = "images/stay-in.gif"; //calling relative pathway of image
+        x.src = "images/raining.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
     }else if (temperature >= 11 && temperature <= 15 ) {
@@ -36,7 +36,7 @@ function displayDressCode(){
 
     }else if (temperature >= 25 && temperature <=45) {
         var x = document.createElement('img'); //creating an image
-        x.src = "images/summerboy.gif"; //calling relative pathway of image
+        x.src = "images/hot.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
     } else{
