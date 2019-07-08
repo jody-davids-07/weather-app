@@ -11,7 +11,7 @@ function displayDressCode(){
 //for every true declared inputted condition (as it gradually increases) execute a message to describe what the user should wear
     if(temperature <= 0 && temperature >= -20) {
         var x = document.createElement('img'); //creating an image
-        x.src = "images/warmgirl.gif"; //calling relative pathway of image
+        x.src = "images/buttoned-up.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
         
