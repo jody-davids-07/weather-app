@@ -1,8 +1,8 @@
-/*Add just basic background for now*/
+/*Add background and font styling*/
 body {
  background-color: cadetblue;
 font-family: 'Raleway', sans-serif;
-background-image: src = "images/weatherclock.gif";
+background-image: url("images/weatherclock.gif");
 
 }
 
