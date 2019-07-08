@@ -14,9 +14,9 @@ function displayDressCode(){
         x.src = "images/warmgirl.gif"; //calling relative pathway of image
         document.body.appendChild(x); //append the image to the body
 
-        <div class="popup" onclick="displayDressCode()">
+        
          <span class="popuptext" id="myPopup">Due to the weather condition stated, it is suggested you wear something tightly buttoned such as a raincoat, wellingtons and don't forget your umbrella!</span>
-        </div>
+        
 
     }else if (temperature >= 0 && temperature <= 10) {
         var x = document.createElement('img'); //creating an image
